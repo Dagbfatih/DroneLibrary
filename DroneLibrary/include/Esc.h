@@ -7,6 +7,7 @@ class Esc : Servo
 {
 private:
 public:
+    int test;
     Esc();
     ~Esc();
 };

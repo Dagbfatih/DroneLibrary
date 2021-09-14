@@ -11,10 +11,10 @@ class Vehicle
 private:
     string _name;
     list<Esc> _thrusters;
+
 public:
     Vehicle(string name, list<Esc> thrusters);
     ~Vehicle();
 };
-
 
 #endif

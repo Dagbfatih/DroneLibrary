@@ -1,7 +1,9 @@
 #include <iostream>
-#include "../include/DroneLibrary/Esc.h"
+#include "Esc.h"
+#include "EscService.h"
 using namespace std;
 
-int main(){
-    Esc e;
+int main(void)
+{
+    EscService escService = EscService(new Esc(), new Esc());
 }

@@ -1,6 +1,14 @@
 #include "EscService.h"
 
-EscService::EscService() {}
+EscService::EscService(...)
+{
+    va_list argp;
+    va_start(argp, 0);
+    Esc val = va_arg(argp, Esc);
+    val.test = 15;
+    std::cout << val.test << std::endl;
+    va_end(argp);
+}
 
 void EscService::Add(Esc esc)
 {

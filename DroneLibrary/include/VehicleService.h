@@ -16,12 +16,4 @@ public:
     ~VehicleService();
 };
 
-VehicleService::VehicleService(string name)
-{
-}
-
-VehicleService::~VehicleService()
-{
-}
-
 #endif
